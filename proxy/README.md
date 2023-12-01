@@ -1,0 +1,3 @@
+12.	Proxy: Laajenna Wikipediassa olevan Proxy-esimerkkiä  http://en.wikipedia.org/wiki/Proxy_pattern siten, että lisäät Image-rajapintaan showData()-metodin, joka näyttää kuvan nimen. Lisää pääohjelmaan valokuvakansio (esim. List-rakenne), johon lisäät valokuvia proxyinä. Tulosta pääohjelmassa tiedot valokuvakansion sisällöstä (kuvia ei ladata). Esitä myös, kuinka valokuvakansiota voidaan selata (kuvat ladataan, ellei vielä ole ladattu).
+
+Esimerkistä puuttuu se, että proxyn pitää edustaa kuvaa lataamatta sitä. Image rajapintaan laitetaan show data metodi, joka näyttää kuvan nimen, päivän jne., tämä ei mene kuvaan asti, vaan proxy näyttää ne.  Kun sanotaan display, silloin vasta näytetään.
